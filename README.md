@@ -1,4 +1,4 @@
-# edge-detection-opencv
+# Edge-detection-opencv
 
 ## Aim
 
@@ -85,8 +85,6 @@ plt.axis('off')
 <img width="297" height="410" alt="download" src="https://github.com/user-attachments/assets/2c9718e4-3138-4a1f-b6cb-86bed8caf372" />
 
 
-
-
 ###  Laplacian Edge Detection
 ```
 Laplacian = cv2.Laplacian(gray_image, cv2.CV_64F)
@@ -96,8 +94,6 @@ plt.axis('off')
 ```
 <img width="297" height="410" alt="download" src="https://github.com/user-attachments/assets/51fe1e7f-46cc-4928-a30b-91f262259792" />
 
- 
-
 ###  Canny Edge Detector
 ```
 Canny_edges = cv2.Canny(gray_image, 50, 150)
@@ -106,10 +102,6 @@ plt.title('Canny Edge Detection')
 plt.axis('off')
 ```
 <img width="297" height="410" alt="download" src="https://github.com/user-attachments/assets/96e0ef82-3e4d-4db6-9de7-6e7b5ae3b027" />
-
-
-
-
 
 
 ## Result
